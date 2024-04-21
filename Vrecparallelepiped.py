@@ -61,5 +61,9 @@ my_pen.left(135)
 my_pen.forward(a*37)
 my_pen.left(45)
 my_pen.forward(c*37)
+my_pen.hideturtle()
+style = ('Courier', 15, 'italic')
+my_pen.write(" Turtle накреслила\n Вам ваш паралелепіпед", font=style, align='right')
+turtle.title('Ваш паралелепіпед')
 
 
